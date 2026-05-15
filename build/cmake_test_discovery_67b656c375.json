@@ -1,0 +1,197 @@
+{
+  "tests": 29,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ControllerMockTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "PressNumber1Confirm",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerMockTest.cpp",
+          "line": 21
+        },
+        {
+          "name": "Press1Then2_SetCH12",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerMockTest.cpp",
+          "line": 28
+        },
+        {
+          "name": "PressFavorite_GetsCurrentCH",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerMockTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "NextFav_CallsSetCH",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerMockTest.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "ControllerTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "PressNumber1ThenConfirm",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 23
+        },
+        {
+          "name": "Press1Then2_AutoChange",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 31
+        },
+        {
+          "name": "FavoriteAdd_NewChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 39
+        },
+        {
+          "name": "FavoriteToggle_Remove",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 49
+        },
+        {
+          "name": "FavoriteToggleScenario",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "NextFavorite_Normal",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 75
+        },
+        {
+          "name": "NextFavorite_WrapAround",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 88
+        },
+        {
+          "name": "NextFavorite_EmptyList",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVChannelControllerTest.cpp",
+          "line": 99
+        }
+      ]
+    },
+    {
+      "name": "TunerTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "initChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 24
+        },
+        {
+          "name": "testSeekCh10times",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 71
+        },
+        {
+          "name": "testSeekCh10timesAfterSetCH",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 93
+        }
+      ]
+    },
+    {
+      "name": "FakeTunerTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "SetAndGetChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "SeekNextAvailableChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 125
+        },
+        {
+          "name": "SeekWrapsToFirstChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 133
+        },
+        {
+          "name": "ThrowsWhenChannelIsOutOfRange",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 141
+        }
+      ]
+    },
+    {
+      "name": "ValidChannels\/TunerValidChannelTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "testSetChForValidChannel\/0",
+          "value_param": "\"0\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 38
+        },
+        {
+          "name": "testSetChForValidChannel\/1",
+          "value_param": "\"4\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 38
+        },
+        {
+          "name": "testSetChForValidChannel\/2",
+          "value_param": "\"5\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 38
+        },
+        {
+          "name": "testSetChForValidChannel\/3",
+          "value_param": "\"12\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 38
+        },
+        {
+          "name": "testSetChForValidChannel\/4",
+          "value_param": "\"99\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "name": "InvalidChannels\/TunerInvalidChannelTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "testSetChForInvalidChannel\/0",
+          "value_param": "\"-12\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 58
+        },
+        {
+          "name": "testSetChForInvalidChannel\/1",
+          "value_param": "\"-2\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 58
+        },
+        {
+          "name": "testSetChForInvalidChannel\/2",
+          "value_param": "\"-0\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 58
+        },
+        {
+          "name": "testSetChForInvalidChannel\/3",
+          "value_param": "\"100\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 58
+        },
+        {
+          "name": "testSetChForInvalidChannel\/4",
+          "value_param": "\"9999\"",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+          "line": 58
+        }
+      ]
+    }
+  ]
+}

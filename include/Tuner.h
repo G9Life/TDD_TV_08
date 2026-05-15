@@ -11,15 +11,16 @@
 #ifndef TUNER_H
 #define TUNER_H
 
-#include <string>
 #include <stdexcept>
+#include <string>
+
 
 class Tuner {
 public:
-    virtual ~Tuner() = default;
-    virtual std::string seekCH() = 0;
-    virtual void setCH(const std::string& ch) = 0;
-    virtual std::string getCurrentCH() = 0;
+  virtual ~Tuner() = default;
+  virtual std::string seekCH() = 0;
+  virtual void setCH(const std::string &ch) = 0;
+  virtual std::string getCurrentCH() = 0;
 };
 
 #endif // TUNER_H

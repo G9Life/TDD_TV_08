@@ -1,0 +1,5 @@
+if(EXISTS "C:/DEV/TDD_TV_08/build/tv_test[1]_tests.cmake")
+  include("C:/DEV/TDD_TV_08/build/tv_test[1]_tests.cmake")
+else()
+  add_test(tv_test_NOT_BUILT tv_test_NOT_BUILT)
+endif()
