@@ -1,10 +1,10 @@
-Start testing: May 19 13:44 대한민국 표준시
+Start testing: May 19 14:01 대한민국 표준시
 ----------------------------------------------------------
 1/23 Testing: TunerTest.initChannel
 1/23 Test: TunerTest.initChannel
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=TunerTest.initChannel" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TunerTest.initChannel" start time: May 19 13:44 대한민국 표준시
+"TunerTest.initChannel" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = TunerTest.initChannel
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"TunerTest.initChannel" end time: May 19 13:44 대한민국 표준시
+"TunerTest.initChannel" end time: May 19 14:01 대한민국 표준시
 "TunerTest.initChannel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/23 Test: TunerTest.testSeekCh10times
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=TunerTest.testSeekCh10times" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TunerTest.testSeekCh10times" start time: May 19 13:44 대한민국 표준시
+"TunerTest.testSeekCh10times" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -47,10 +47,10 @@ Note: Google Test filter = TunerTest.testSeekCh10times
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.53 sec
 ----------------------------------------------------------
 Test Passed.
-"TunerTest.testSeekCh10times" end time: May 19 13:44 대한민국 표준시
+"TunerTest.testSeekCh10times" end time: May 19 14:01 대한민국 표준시
 "TunerTest.testSeekCh10times" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/23 Test: TunerTest.testSeekCh10timesAfterSetCH
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=TunerTest.testSeekCh10timesAfterSetCH" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TunerTest.testSeekCh10timesAfterSetCH" start time: May 19 13:44 대한민국 표준시
+"TunerTest.testSeekCh10timesAfterSetCH" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = TunerTest.testSeekCh10timesAfterSetCH
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"TunerTest.testSeekCh10timesAfterSetCH" end time: May 19 13:44 대한민국 표준시
+"TunerTest.testSeekCh10timesAfterSetCH" end time: May 19 14:01 대한민국 표준시
 "TunerTest.testSeekCh10timesAfterSetCH" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/23 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/0" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" start time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -101,10 +101,10 @@ Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValid
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" end time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" end time: May 19 14:01 대한민국 표준시
 "ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/23 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/1" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" start time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -128,10 +128,10 @@ Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValid
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" end time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" end time: May 19 14:01 대한민국 표준시
 "ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/23 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/2" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" start time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,7 +158,7 @@ Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValid
 Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" end time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" end time: May 19 14:01 대한민국 표준시
 "ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/23 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/3" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" start time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -182,10 +182,10 @@ Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValid
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" end time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" end time: May 19 14:01 대한민국 표준시
 "ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/23 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" start time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -209,10 +209,10 @@ Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValid
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" end time: May 19 13:44 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" end time: May 19 14:01 대한민국 표준시
 "ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/23 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/0" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" start time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -236,10 +236,10 @@ Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForI
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" end time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" end time: May 19 14:01 대한민국 표준시
 "InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/23 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/1" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" start time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -263,10 +263,10 @@ Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForI
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.57 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" end time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" end time: May 19 14:01 대한민국 표준시
 "InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/23 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/2" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" start time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -290,10 +290,10 @@ Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForI
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.51 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" end time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" end time: May 19 14:01 대한민국 표준시
 "InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/23 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/3" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" start time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -320,7 +320,7 @@ Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForI
 Test time =   0.52 sec
 ----------------------------------------------------------
 Test Passed.
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" end time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" end time: May 19 14:01 대한민국 표준시
 "InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/23 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"
 Command: "C:/DEV/TDD_TV_08/build/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/4" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" start time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -344,10 +344,10 @@ Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForI
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" end time: May 19 13:44 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" end time: May 19 14:01 대한민국 표준시
 "InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/23 Test: TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -368,7 +368,7 @@ Note: Google Test filter = TVControllerTest.DigitThenConfirm_ChangesToSingleDigi
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x74155ff740 "1")
+    Function call: setCH(@0x3d64ffefb0 "1")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -377,10 +377,10 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -388,7 +388,7 @@ Test Passed.
 15/23 Test: TVControllerTest.TwoDigits_ChangesImmediately
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.TwoDigits_ChangesImmediately" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.TwoDigits_ChangesImmediately" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.TwoDigits_ChangesImmediately" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,7 +401,7 @@ Note: Google Test filter = TVControllerTest.TwoDigits_ChangesImmediately
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x5159bff740 "12")
+    Function call: setCH(@0xf97bfff680 "12")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.TwoDigits_ChangesImmediately (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -413,7 +413,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 Test time =   0.52 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.TwoDigits_ChangesImmediately" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.TwoDigits_ChangesImmediately" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.TwoDigits_ChangesImmediately" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -421,7 +421,7 @@ Test Passed.
 16/23 Test: TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -434,7 +434,7 @@ Note: Google Test filter = TVControllerTest.LeadingZeroThenDigit_ChangesToDigitC
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x11e9bff300 "7")
+    Function call: setCH(@0x302a9ff3e0 "7")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -443,10 +443,10 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -454,7 +454,7 @@ Test Passed.
 17/23 Test: TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -474,7 +474,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x84d3dff3c0 "0")
+    Function call: setCH(@0xb5d4fff0a0 "0")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -486,7 +486,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 Test time =   0.53 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -494,7 +494,7 @@ Test Passed.
 18/23 Test: TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -514,7 +514,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x40b3ff0b0 "99")
+    Function call: setCH(@0x30df7ff520 "99")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -523,10 +523,10 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.60 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -534,7 +534,7 @@ Test Passed.
 19/23 Test: TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -561,7 +561,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0xac091ff590 "14")
+    Function call: setCH(@0x766abff3d0 "14")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -570,10 +570,10 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.53 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -581,7 +581,7 @@ Test Passed.
 20/23 Test: TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -608,7 +608,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x76ebdff750 "12")
+    Function call: setCH(@0xc5fbff120 "12")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 
 GMOCK WARNING:
@@ -621,7 +621,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x76ebdff750 "56")
+    Function call: setCH(@0xc5fbff120 "56")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 
 GMOCK WARNING:
@@ -641,7 +641,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x76ebdff750 "12")
+    Function call: setCH(@0xc5fbff120 "12")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -650,10 +650,10 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -661,7 +661,7 @@ Test Passed.
 21/23 Test: TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -674,7 +674,7 @@ Note: Google Test filter = TVControllerTest.PendingDigitFunctionKey_InvalidatesP
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x4fcbff600 "45")
+    Function call: setCH(@0x7b4cbff360 "45")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 
 GMOCK WARNING:
@@ -687,7 +687,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x4fcbff600 "46")
+    Function call: setCH(@0x7b4cbff360 "46")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -696,10 +696,10 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.52 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -707,7 +707,7 @@ Test Passed.
 22/23 Test: TVControllerTest.FourDigits_ChangesAsTwoPairs
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.FourDigits_ChangesAsTwoPairs" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.FourDigits_ChangesAsTwoPairs" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.FourDigits_ChangesAsTwoPairs" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -720,13 +720,13 @@ Note: Google Test filter = TVControllerTest.FourDigits_ChangesAsTwoPairs
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0xf92d5fef60 "12")
+    Function call: setCH(@0xc2f4fff310 "12")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0xf92d5fef60 "34")
+    Function call: setCH(@0xc2f4fff310 "34")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.FourDigits_ChangesAsTwoPairs (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -738,7 +738,7 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 Test time =   0.53 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.FourDigits_ChangesAsTwoPairs" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.FourDigits_ChangesAsTwoPairs" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.FourDigits_ChangesAsTwoPairs" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -746,7 +746,7 @@ Test Passed.
 23/23 Test: TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero
 Command: "C:/DEV/TDD_TV_08/build/TVControllerTest.exe" "--gtest_filter=TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/TDD_TV_08/build
-"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" start time: May 19 13:44 대한민국 표준시
+"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" start time: May 19 14:01 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -759,7 +759,7 @@ Note: Google Test filter = TVControllerTest.LeadingZeroThenConfirm_ChangesToChan
 GMOCK WARNING:
 Uninteresting mock function call - taking default action specified at:
 C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
-    Function call: setCH(@0x5005fff030 "0")
+    Function call: setCH(@0x836f9ff190 "0")
 NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
 [       OK ] TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero (0 ms)
 [----------] 1 test from TVControllerTest (0 ms total)
@@ -768,11 +768,11 @@ NOTE: You can safely ignore the above warning unless this call should not happen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.51 sec
 ----------------------------------------------------------
 Test Passed.
-"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" end time: May 19 13:44 대한민국 표준시
+"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" end time: May 19 14:01 대한민국 표준시
 "TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 19 13:44 대한민국 표준시
+End testing: May 19 14:01 대한민국 표준시
