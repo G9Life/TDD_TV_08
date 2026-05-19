@@ -1,0 +1,13 @@
+scenario NextFavorite_WrapsToSmallestFavorite
+initial 1
+FAVORITE_ADD -> 1
+4 -> 1
+OK -> 4
+FAVORITE_ADD -> 4
+1 -> 4
+2 -> 12
+FAVORITE_ADD -> 12
+5 -> 12
+6 -> 56
+FAVORITE_ADD -> 56
+NEXT_FAVORITE -> 1

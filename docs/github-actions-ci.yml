@@ -1,0 +1,33 @@
+# GitHub Actions CI workflow (copy to .github/workflows/ci.yml)
+# Note: pushing .github/workflows/* requires a PAT with the `workflow` scope.
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+
+      - name: Build
+        run: cmake --build build --parallel
+
+      - name: Run unit and golden tests
+        run: ctest --test-dir build --output-on-failure
+
+      - name: Verify golden files are committed
+        run: |
+          git diff --exit-code test/golden/
+          if [ -n "$(git status --porcelain test/golden/)" ]; then
+            echo "Uncommitted golden file changes detected."
+            exit 1
+          fi

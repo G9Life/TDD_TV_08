@@ -1,0 +1,6 @@
+scenario FourDigits_ChangesAsTwoPairs
+initial 0
+1 -> 0
+2 -> 12
+3 -> 12
+4 -> 34

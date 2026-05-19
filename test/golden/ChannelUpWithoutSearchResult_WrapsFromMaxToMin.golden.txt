@@ -1,0 +1,3 @@
+scenario ChannelUpWithoutSearchResult_WrapsFromMaxToMin
+initial 99
+CH_UP -> 0

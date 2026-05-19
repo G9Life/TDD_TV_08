@@ -1,0 +1,3 @@
+scenario ChannelDownWithoutSearchResult_WrapsFromMinToMax
+initial 0
+CH_DOWN -> 99

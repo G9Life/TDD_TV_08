@@ -1,0 +1,3 @@
+scenario ChannelDownWithoutSearchResult_DecrementsChannel
+initial 6
+CH_DOWN -> 5

@@ -1,0 +1,5 @@
+scenario ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel
+initial 15
+seek_returns 4 6 14 6
+CH_SEARCH -> 15
+CH_DOWN -> 14

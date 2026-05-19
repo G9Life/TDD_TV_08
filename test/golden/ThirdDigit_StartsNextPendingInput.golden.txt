@@ -1,0 +1,5 @@
+scenario ThirdDigit_StartsNextPendingInput
+initial 0
+4 -> 0
+5 -> 45
+6 -> 45

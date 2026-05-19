@@ -1,0 +1,4 @@
+scenario LeadingZeroThenDigit_ChangesToDigitChannel
+initial 50
+0 -> 50
+7 -> 7

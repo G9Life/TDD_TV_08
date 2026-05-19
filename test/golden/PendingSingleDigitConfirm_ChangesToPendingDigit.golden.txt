@@ -1,0 +1,6 @@
+scenario PendingSingleDigitConfirm_ChangesToPendingDigit
+initial 0
+4 -> 0
+5 -> 45
+6 -> 45
+OK -> 6
