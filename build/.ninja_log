@@ -1,0 +1,12 @@
+# ninja log v7
+37	3239	8008672531386636	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	e40243c5645f3e62
+52	3770	8008672531537902	CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj	66c51ebf38e7de54
+22	5025	8008672531232593	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	8cd139896f465074
+7	9890	8008672531087797	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	56e9a2a7f767e18
+23	1447	8008672791422091	lib/libgtest.a	3b9997a97ff47c40
+42	1833	8008672791606637	CMakeFiles/TVControllerTest.dir/src/TVController.cpp.obj	20240f8b69282344
+1459	2905	8008672805784575	lib/libgtest_main.a	59b1a7bd9225014d
+1447	2913	8008672805663207	lib/libgmock.a	3deea4a3c88a0826
+2913	7907	8008672870031488	TVControllerTest.exe	5044dde85004704f
+2913	7907	8008672870031488	TVControllerTest[1]_tests.cmake	5044dde85004704f
+2913	7907	8008672870031488	C:/DEV/TDD_TV_08/build/TVControllerTest[1]_tests.cmake	5044dde85004704f
