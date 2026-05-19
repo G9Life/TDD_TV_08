@@ -1,0 +1,182 @@
+# TVController.cpp 코드 품질 분석 보고서
+
+**대상:** `src/TVController.cpp`, `include/TVController.h`, `include/Tuner.h`, `include/remoteKey.h`  
+**관점:** SOLID, Code Smell, C++17 모던 스타일  
+**분석일:** 2026-05-19
+
+---
+
+## 1. 함수별 역할 요약
+
+| 함수 | 역할 | LOC(대략) |
+|------|------|-----------|
+| `TVController()` | Tuner 의존성 주입, 버퍼 초기화 | 2 |
+| `isDigitKey` | 숫자 키 판별 | 3 |
+| `isDigitOrConfirm` | 숫자/확인 키 판별 (**헤더 미선언, 미사용**) | 3 |
+| `digitChar` | `remoteKey` → 문자 변환 | 3 |
+| `getCurrentChannel` | Tuner 문자열 → `int` | 3 |
+| `validateChannel` | 0~99 범위 검증 | 5 |
+| `parseChannel` | 문자열 파싱 + 검증 | 5 |
+| `setChannel` | 검증 후 Tuner 설정 | 4 |
+| `confirmPendingDigits` | 보류 숫자 확정 | 7 |
+| `setTunerCh` | `confirmPendingDigits` 위임 | 3 |
+| `clearPendingDigits` | 버퍼 클리어 | 3 |
+| `handleDigit` | 숫자 입력·2자리 자동 확정 | 6 |
+| `handleChannelUp` | 일반/검색 목록 기준 CH+ | 15 |
+| `handleChannelDown` | 일반/검색 목록 기준 CH− | 15 |
+| `toggleFavorite` | 선호 채널 토글 | 10 |
+| `handleNextFavorite` | 선호 목록 순환 이동 | 13 |
+| `handleChannelSearch` | `seekCH` 스캔·중복 제거·정렬 | 26 |
+| `pushButton` | 입력 분기·디스패치·버퍼 무효화 | 35 |
+
+---
+
+## 2. SOLID / Code Smell 분석표
+
+| 문제점 | 위반 원칙 / 스멜 | 영향 | 개선 방향 | 우선순위 |
+|--------|------------------|------|-----------|----------|
+| `TVController`가 숫자 입력·채널 검증·Tuner 제어·선호 목록·검색 목록·리모컨 디스패치를 모두 담당 | **SRP** 위반, **God Class** 경향 | 변경 이유가 5가지 이상(입력 규칙, 탐색, 즐겨찾기, 키 매핑, Tuner 연동)으로 테스트·리뷰 범위 확대 | `DigitInputHandler`, `FavoriteStore`, `ChannelSearchService`, `KeyDispatcher` 등 역할 분리 또는 최소한 private 네임스페이스/파일 분할 | **2** |
+| 새 리모컨 키 추가 시 `pushButton`의 `if`/`switch` 수정 필요 | **OCP** 위반 | 기능 키마다 컨트롤러 핵심 클래스 수정·재컴파일 | `std::unordered_map<remoteKey, std::function<void()>>` 또는 Command 객체 테이블로 핸들러 등록 | **3** |
+| `handleChannelUp` / `handleChannelDown` / `handleNextFavorite`의 **정렬 벡터 + upper/lower_bound + 래핑** 패턴 중복 | **Duplicated Code**, DRY 위반 | Up/Down/NextFavorite 중 한 곳만 수정 시 동작 불일치 버그 | `navigateSortedList(const vector<int>&, int current, Direction)` 공통 함수 또는 `SortedChannelNavigator` 전략 추출 | **1** |
+| 일반 채널(0~99) 순환: `(current == MAX) ? MIN : current+1` vs 검색/선호 목록 순환 로직이 한 클래스에 혼재 | **SRP** + 중복 | “전체 범위” vs “부분 집합” 탐색 규칙이 섞여 가독성 저하 | `IChannelNavigator` + `LinearRangeNavigator` / `SortedListNavigator` (C++17 `std::variant`로 컨텍스트 보관 가능) | **1** |
+| `handleChannelSearch`가 스캔·중복 제거·정렬·종료 조건을 단일 메서드에 포함 | **Long Method**, **SRP** | 루프 상한·`wrapped` 플래그 이해 비용, 단위 테스트 어려움 | `scanAvailableChannels()`, `deduplicateAndSort()` 분리; 루프 상한은 `MAX_CHANNEL`과 별도 `MAX_SEEK_ITERATIONS` 상수 | **4** |
+| `pushButton`이 라우팅 + `processingCH` 무효화 + 기능 핸들러 호출 | **Long Method**, 높은 **조건문 복잡도** | 입력 흐름(숫자/확인/기능) 추적 어려움 | 상태 머신(`enum class InputMode`) 또는 `DigitInputHandler::onKey(key)`로 전환 | **2** |
+| `handleDigit`의 `processingCH.size() >= 2` | **Magic Number** | 요구사항(2자리 즉시 확정) 변경 시 누락 위험 | `constexpr std::size_t kMaxDigitBufferLen = 2;` 또는 `kAutoConfirmDigitCount` | **4** |
+| `handleChannelSearch` 루프 `for (i = 0; i <= MAX_CHANNEL)` | **Magic Number** / 의미 혼동 | `MAX_CHANNEL=99`가 “채널 상한”이면서 동시에 “최대 seek 횟수”로 사용됨 | `constexpr int MAX_SEEK_ATTEMPTS = MAX_CHANNEL - MIN_CHANNEL + 1;` 등 의도 분리 | **4** |
+| `handleChannelSearch`에서 `std::stoi(chStr)` 후 `validateChannel` 미호출 | 잠재 **버그**, 방어적 설계 부족 | Tuner가 범위 밖 문자열 반환 시 목록 오염 | `parseChannel` 재사용 또는 `optional<int>` 파싱 | **4** |
+| `getCurrentChannel` / `parseChannel` / 검색 루프에서 반복 `std::stoi` | **Duplicated Code**, **Primitive Obsession** | 예외 종류·메시지 불일치, string↔int 변환 산재 | `ChannelNumber` 강타입 래퍼 또는 `std::optional<ChannelNumber> tryParse(std::string_view)` | **5** |
+| `setTunerCh()` → `confirmPendingDigits()` 단순 위임 | **Indirection / Dead abstraction** | 호출 스택만 증가 | `setTunerCh` 제거 후 `KEY_OK`에서 `confirmPendingDigits` 직접 호출 | **5** |
+| `isDigitOrConfirm` 구현 존재, 헤더 미선언·호출 없음 | **Dead Code** | 유지보수 혼란, 일부 빌드 설정에서 컴파일 오류 가능 | 삭제 또는 `pushButton` 조건에 활용해 의도 명시 | **5** |
+| `Tuner*` raw 포인터, null·수명 미보장 | **DIP** 약화 | dangling pointer 위험 | `Tuner&` 또는 `std::shared_ptr<Tuner>` + 생성자 계약 문서화 | **5** |
+| `favoriteChannels`에 `push_back` + 매번 `std::sort` | **비효율** (스멜: 성능 냄새) | 즐겨찾기 많을 때 O(n log n) 반복 | `std::lower_bound` 삽입 위치에 insert → 정렬 상태 유지 | **5** |
+| `searchedChannels` 중복 검사 `std::find` 선형 탐색 | **비효율** | 채널 수 많을 때 검색 비용 | `std::unordered_set<int>` 임시 사용 후 정렬 벡터로 변환 | **5** |
+| 채널 범위 `MIN_CHANNEL`/`MAX_CHANNEL` | (양호) 요구사항과 일치 | — | `include/TVControllerConstants.h`로 공유하거나 `namespace tv::channel` | — |
+| `remoteKey` enum 확장 시 `to_string` switch도 수정 | **OCP** (인접 모듈) | 로깅/디버그 문자열 동기화 부담 | `magic_enum` 또는 X-Macro로 enum/문자열 동시 생성 | **5** |
+
+**우선순위 기준:** (1) 버그·불일치 위험이 큰 중복 제거 → (2) 핵심 도메인(숫자 입력) 분리 → (3) 확장성(OCP) → (4) 긴 메서드·상수·검증 → (5) 정리·미세 최적화.
+
+---
+
+## 3. SRP / OCP 위반 상세
+
+### 3.1 SRP (Single Responsibility Principle)
+
+`TVController`는 다음 **최소 5가지 책임**을 동시에 가진다.
+
+1. **리모컨 입력 디스패치** (`pushButton`)
+2. **다자리 숫자 입력 상태 관리** (`processingCH`, `handleDigit`, `confirmPendingDigits`)
+3. **채널 유효성·Tuner 연동** (`validateChannel`, `setChannel`, `getCurrentChannel`)
+4. **선호 채널 CRUD·순환** (`toggleFavorite`, `handleNextFavorite`)
+5. **채널 검색 결과 수집·CH Up/Down용 목록 탐색** (`handleChannelSearch`, `handleChannelUp`/`Down`)
+
+**근거:** 요구사항 문서(`docs/01_requirements_analysis.md`)의 규칙 1~6이 서로 다른 변경 주기를 가진다. 예를 들어 “2자리 즉시 확정” 규칙만 바뀌어도 `pushButton`·`handleDigit`·버퍼 정책을 건드리게 되고, “검색 결과 기반 Up/Down”은 `searchedChannels`와 탐색 알고리리즘만 영향을 받아야 한다.
+
+### 3.2 OCP (Open-Closed Principle)
+
+- **키 확장:** `remoteKey`에 버튼이 추가되면 `pushButton`의 분기와 `switch` case를 직접 수정해야 한다. 닫혀 있지 않고(open되지 않음) 수정에 의존한다.
+- **탐색 정책 확장:** “선호 목록만 Up/Down”, “최근 시청 목록” 등 새 탐색 모드가 생기면 `handleChannelUp`/`Down`의 `if (searchedChannels.empty())` 분기를 복제·수정해야 한다.
+- **완화 방향:** 핸들러 테이블 + `ChannelNavigator` 전략으로 “새 키/새 탐색 모드 = 새 등록”에 가깝게 만든다.
+
+---
+
+## 4. 상수화 필요성
+
+| 현재 | 위치 | 권장 |
+|------|------|------|
+| `MIN_CHANNEL = 0`, `MAX_CHANNEL = 99` | `TVController.h` | 유지. 필요 시 `namespace tv { constexpr ... }`로 Tuner/테스트와 공유 |
+| `2` (자동 확정 자릿수) | `handleDigit` | `kDigitsForImmediateConfirm = 2` |
+| `MAX_CHANNEL + 1` 회 seek | `handleChannelSearch` | `kMaxSeekIterations` (의도: “0~99 전체 스캔”) |
+| `'0'`, `KEY_0` 오프셋 | `digitChar` | enum 연속성에 의존 — `static_assert`로 `KEY_0`~`KEY_9` 연속 검증 |
+| 예외 메시지 `"Invalid channel"` | `validateChannel` | `constexpr const char* kInvalidChannelMsg` (테스트에서 부분 매칭 가능) |
+
+요구사항상 채널 번호 도메인은 **0~99 고정**이므로, 매직 넘버 `2`와 seek 루프 상한이 상수화 우선 대상이다.
+
+---
+
+## 5. Code Smell 요약
+
+| 스멜 | 해당 위치 | 심각도 |
+|------|-----------|--------|
+| **Long Method** | `handleChannelSearch`, `pushButton` | 중 |
+| **Duplicated Code** | Up/Down/NextFavorite, stoi 경로, empty-list vs sorted-list 분기 | 높음 |
+| **조건문 복잡도** | `pushButton` (early return 3단 + switch), `handleChannelSearch` (`wrapped`) | 중 |
+| **Feature Envy** | 다수 메서드가 `tuner->getCurrentCH()` / `setCH` 문자열 API에 의존 | 중 |
+| **Dead Code** | `isDigitOrConfirm` | 낮음 (정리 시 즉시 제거) |
+| **Shotgun Surgery** (잠재) | 채널 순환 규칙 변경 시 3곳 이상 수정 | 높음 |
+
+---
+
+## 6. C++17 개선 방향
+
+### 6.1 테이블 기반 디스패치 (OCP)
+
+```cpp
+using KeyHandler = std::function<void(TVController&)>;
+const std::unordered_map<remoteKey, KeyHandler> kHandlers = {
+    {remoteKey::KEY_CH_UP, [](TVController& c) { c.handleChannelUp(); }},
+    // ...
+};
+```
+
+또는 멤버 함수 포인터 + `std::invoke`로 `pushButton` 본문을 10줄 내외로 축소.
+
+### 6.2 전략 패턴 / Navigator
+
+```cpp
+enum class NavDirection { Up, Down };
+
+class IChannelNavigator {
+public:
+    virtual ~IChannelNavigator() = default;
+    virtual int next(int current) const = 0;
+};
+
+class SortedListNavigator : public IChannelNavigator { /* vector + bound + wrap */ };
+class LinearRangeNavigator : public IChannelNavigator { /* MIN/MAX wrap */ };
+```
+
+`handleChannelUp`/`Down`은 `navigator->next(getCurrentChannel())` 한 줄로 수렴. 검색 목록 유무는 `std::variant<LinearRangeNavigator, SortedListNavigator>` 또는 `optional` 참조로 선택.
+
+### 6.3 `std::variant` / `std::optional`
+
+- `std::optional<std::string>` 또는 `std::optional<int>`로 `processingCH` 표현 → “비어 있음”을 타입으로 표현.
+- 탐색 모드: `std::variant<FullRangeMode, SearchResultMode, FavoriteMode>`로 Up/Down 동작 캡슐화.
+
+### 6.4 기타 C++17
+
+- `std::string_view`로 Tuner 문자열 읽기 전용 파싱 (인터페이스 변경 시).
+- 구조화 바인딩·`if constexpr`는 현재 규모에서는 과하지 않음.
+- `[[nodiscard]]` on `getCurrentChannel`, `parseChannel`.
+
+---
+
+## 7. 리팩토링 우선순위 (1~5)
+
+| 순위 | 항목 | 이유 |
+|:---:|------|------|
+| **1** | 정렬 목록 순환 탐색 공통화 (`navigateSortedList`) | `handleChannelUp`, `handleChannelDown`, `handleNextFavorite`의 **동일 알고리즘**이 가장 큰 중복·불일치 위험원 |
+| **2** | 숫자 입력 상태(`processingCH`) 전담 컴포넌트 분리 | 요구사항 1번(2자리 확정, 선행 0, 기능키 무효화)이 **가장 복잡한 도메인 규칙** |
+| **3** | `pushButton` 테이블/커맨드 디스패치 | OCP·가독성; 신규 키 추가 비용 감소 |
+| **4** | `handleChannelSearch` 분해 + 상수·`validateChannel` 적용 | Long Method 해소, Tuner 비정상 값 방어 |
+| **5** | Dead code 제거, `setTunerCh` 제거, Tuner 수명·삽입 최적화 | 동작 변경 없이 유지보수성·안전성 개선 |
+
+---
+
+## 8. 개선 방향 요약
+
+1. **즉시 (Low risk):** `isDigitOrConfirm` 삭제, `setTunerCh` 인라인, `navigateSortedList` 추출로 Up/Down/NextFavorite 통합.
+2. **단기:** `DigitInputHandler`로 `processingCH`·2자리 규칙·확인 캡슐화; `pushButton`은 디스패치만 담당.
+3. **중기:** `ChannelNavigator` 전략으로 “전체 0~99” vs “검색/선호 부분 집합” 분리; `handleChannelSearch`를 스캔/집계로 분할.
+4. **C++17 스타일:** 핸들러 `unordered_map`, `optional`/`variant`로 상태·모드 명시, 채널 번호 파싱 단일 진입점.
+5. **테스트:** 공통 navigator 추출 후 기존 GTest 시나리오(요구사항 18~21, 11~12)를 navigator 단위 + 통합 테스트로 이중 검증.
+
+현재 구현은 **요구사항 범위 내 기능은 응집**되어 있으나, **탐색 알고리즘 중복**과 **컨트롤러 다중 책임**이 유지보수 비용의 핵심이다. 우선순위 1번(정렬 목록 네비게이션 공통화)부터 적용하면 diff가 작고 회귀 위험이 가장 낮다.
+
+---
+
+## 9. 참고: 양호한 설계 요소
+
+- `MIN_CHANNEL` / `MAX_CHANNEL`을 헤더 `constexpr`로 정의 — 요구사항 3절과 일치.
+- `validateChannel` + `setChannel` / `parseChannel` 분리로 잘못된 채널 시 Tuner 호출 전 차단.
+- `Tuner` 가상 인터페이스 — 업체 구현 교체 가능(DIP 방향).
+- `remoteKey` `enum class` — 타입 안전 입력 모델.
