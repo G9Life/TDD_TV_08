@@ -1,0 +1,24 @@
+TunerTest.initChannel 1 0.522059
+TunerTest.testSeekCh10times 1 0.516057
+TunerTest.testSeekCh10timesAfterSetCH 1 0.520944
+ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0" 1 0.519251
+ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4" 1 0.517992
+ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5" 1 0.538415
+ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12" 1 0.524935
+ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99" 1 0.529722
+InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12" 1 0.523893
+InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2" 1 0.567638
+InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0" 1 0.512998
+InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100" 1 0.519723
+InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999" 1 0.531439
+TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel 1 0.534691
+TVControllerTest.TwoDigits_ChangesImmediately 1 0.521295
+TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel 1 0.531506
+TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin 1 0.529301
+TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax 1 0.526607
+TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels 1 0.520062
+TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite 1 0.519926
+TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction 1 0.525301
+TVControllerTest.FourDigits_ChangesAsTwoPairs 1 0.530222
+TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero 1 0.527393
+---

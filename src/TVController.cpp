@@ -20,10 +20,6 @@ bool TVController::isDigitKey(remoteKey key) const {
     return key >= remoteKey::KEY_0 && key <= remoteKey::KEY_9;
 }
 
-bool TVController::isDigitOrConfirm(remoteKey key) const {
-    return isDigitKey(key) || key == remoteKey::KEY_OK;
-}
-
 char TVController::digitChar(remoteKey key) const {
     return static_cast<char>('0' + (static_cast<int>(key) - static_cast<int>(remoteKey::KEY_0)));
 }
