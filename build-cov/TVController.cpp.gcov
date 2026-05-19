@@ -1,0 +1,413 @@
+        -:    0:Source:C:/DEV/TDD_TV_08/src/TVController.cpp
+        -:    0:Graph:CMakeFiles/TVControllerTest.dir/src/TVController.cpp.gcno
+        -:    0:Data:CMakeFiles/TVControllerTest.dir/src/TVController.cpp.gcda
+        -:    0:Runs:11
+        -:    1:/**
+        -:    2: * Copyright 2020 by Samsung Electronics, Inc.,
+        -:    3: *
+        -:    4: * This software is the confidential and proprietary information
+        -:    5: * of Samsung Electronics, Inc. ("Confidential Information").  You
+        -:    6: * shall not disclose such Confidential Information and shall use
+        -:    7: * it only in accordance with the terms of the license agreement
+        -:    8: * you entered into with Samsung.
+        -:    9: */
+        -:   10:
+        -:   11:#include "TVController.h"
+        -:   12:#include <algorithm>
+        -:   13:#include <stdexcept>
+        -:   14:#include <string>
+        -:   15:
+function _ZN12TVControllerC2EP5Tuner called 10 returned 100% blocks executed 80%
+       10:   16:TVController::TVController(Tuner* tuner)
+       30:   17:    : tuner(tuner), processingCH("") {}
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+call    4 returned 100%
+        -:   18:
+function _ZNK12TVController10isDigitKeyE9remoteKey called 29 returned 100% blocks executed 100%
+       29:   19:bool TVController::isDigitKey(remoteKey key) const {
+       29:   20:    return key >= remoteKey::KEY_0 && key <= remoteKey::KEY_9;
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
+branch  2 taken 59% (fallthrough)
+branch  3 taken 41%
+        -:   21:}
+        -:   22:
+function _ZNK12TVController9digitCharE9remoteKey called 17 returned 100% blocks executed 100%
+       17:   23:char TVController::digitChar(remoteKey key) const {
+       17:   24:    return static_cast<char>('0' + (static_cast<int>(key) - static_cast<int>(remoteKey::KEY_0)));
+        -:   25:}
+        -:   26:
+function _ZNK12TVController17getCurrentChannelEv called 10 returned 100% blocks executed 78%
+       10:   27:int TVController::getCurrentChannel() const {
+       10:   28:    return std::stoi(tuner->getCurrentCH());
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+call    7 never executed
+        -:   29:}
+        -:   30:
+function _ZNK12TVController15validateChannelEi called 23 returned 100% blocks executed 50%
+       23:   31:void TVController::validateChannel(int ch) const {
+       23:   32:    if (ch < MIN_CHANNEL || ch > MAX_CHANNEL) {
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
+branch  2 taken 0% (fallthrough)
+branch  3 taken 100%
+    #####:   33:        throw std::invalid_argument("Invalid channel");
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+call    4 never executed
+call    5 never executed
+        -:   34:    }
+       23:   35:}
+        -:   36:
+function _ZNK12TVController12parseChannelERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 9 returned 100% blocks executed 100%
+        9:   37:int TVController::parseChannel(const std::string& digits) const {
+        9:   38:    const int ch = std::stoi(digits);
+call    0 returned 100%
+        9:   39:    validateChannel(ch);
+call    0 returned 100%
+        9:   40:    return ch;
+        -:   41:}
+        -:   42:
+function _ZN12TVController10setChannelEi called 14 returned 100% blocks executed 75%
+       14:   43:void TVController::setChannel(int ch) {
+       14:   44:    validateChannel(ch);
+call    0 returned 100%
+       14:   45:    tuner->setCH(std::to_string(ch));
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+call    4 returned 100%
+call    5 never executed
+       14:   46:}
+        -:   47:
+function _ZN12TVController20confirmPendingDigitsEv called 9 returned 100% blocks executed 86%
+        9:   48:void TVController::confirmPendingDigits() {
+        9:   49:    if (processingCH.empty()) {
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+    #####:   50:        return;
+        -:   51:    }
+        9:   52:    const int ch = parseChannel(processingCH);
+call    0 returned 100%
+        9:   53:    processingCH.clear();
+call    0 returned 100%
+        9:   54:    setChannel(ch);
+call    0 returned 100%
+        -:   55:}
+        -:   56:
+function _ZN12TVController10setTunerChEv called 2 returned 100% blocks executed 100%
+        2:   57:void TVController::setTunerCh() {
+        2:   58:    confirmPendingDigits();
+call    0 returned 100%
+        2:   59:}
+        -:   60:
+function _ZN12TVController18clearPendingDigitsEv called 1 returned 100% blocks executed 100%
+        1:   61:void TVController::clearPendingDigits() {
+        1:   62:    processingCH.clear();
+call    0 returned 100%
+        1:   63:}
+        -:   64:
+function _ZN12TVController11handleDigitE9remoteKey called 17 returned 100% blocks executed 100%
+       17:   65:void TVController::handleDigit(remoteKey key) {
+       17:   66:    processingCH += digitChar(key);
+call    0 returned 100%
+call    1 returned 100%
+       17:   67:    if (processingCH.size() >= 2) {
+call    0 returned 100%
+branch  1 taken 41% (fallthrough)
+branch  2 taken 59%
+        7:   68:        confirmPendingDigits();
+call    0 returned 100%
+        -:   69:    }
+       17:   70:}
+        -:   71:
+function _ZN12TVController15handleChannelUpEv called 3 returned 100% blocks executed 93%
+        3:   72:void TVController::handleChannelUp() {
+        3:   73:    const int current = getCurrentChannel();
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        3:   74:    if (searchedChannels.empty()) {
+call    0 returned 100%
+branch  1 taken 67% (fallthrough)
+branch  2 taken 33%
+        2:   75:        const int next = (current == MAX_CHANNEL) ? MIN_CHANNEL : current + 1;
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+        2:   76:        setChannel(next);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        2:   77:        return;
+        -:   78:    }
+        -:   79:
+        1:   80:    const auto it = std::upper_bound(searchedChannels.begin(), searchedChannels.end(), current);
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+        2:   81:    if (it == searchedChannels.end()) {
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+    #####:   82:        setChannel(searchedChannels.front());
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+        -:   83:    } else {
+        1:   84:        setChannel(*it);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        -:   85:    }
+        -:   86:}
+        -:   87:
+function _ZN12TVController17handleChannelDownEv called 1 returned 100% blocks executed 26%
+        1:   88:void TVController::handleChannelDown() {
+        1:   89:    const int current = getCurrentChannel();
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        1:   90:    if (searchedChannels.empty()) {
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0%
+       1*:   91:        const int next = (current == MIN_CHANNEL) ? MAX_CHANNEL : current - 1;
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+        1:   92:        setChannel(next);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        1:   93:        return;
+        -:   94:    }
+        -:   95:
+    #####:   96:    const auto it = std::lower_bound(searchedChannels.begin(), searchedChannels.end(), current);
+call    0 never executed
+call    1 never executed
+call    2 never executed
+branch  3 never executed (fallthrough)
+branch  4 never executed (throw)
+    #####:   97:    if (it == searchedChannels.begin()) {
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed
+    #####:   98:        setChannel(searchedChannels.back());
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+        -:   99:    } else {
+    #####:  100:        setChannel(*std::prev(it));
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+        -:  101:    }
+        -:  102:}
+        -:  103:
+function _ZN12TVController14toggleFavoriteEv called 4 returned 100% blocks executed 75%
+        4:  104:void TVController::toggleFavorite() {
+        4:  105:    const int current = getCurrentChannel();
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        4:  106:    const auto it = std::find(favoriteChannels.begin(), favoriteChannels.end(), current);
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+        8:  107:    if (it != favoriteChannels.end()) {
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+    #####:  108:        favoriteChannels.erase(it);
+call    0 never executed
+branch  1 never executed (fallthrough)
+branch  2 never executed (throw)
+        -:  109:    } else {
+        4:  110:        favoriteChannels.push_back(current);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        4:  111:        std::sort(favoriteChannels.begin(), favoriteChannels.end());
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+        -:  112:    }
+        4:  113:}
+        -:  114:
+function _ZN12TVController18handleNextFavoriteEv called 1 returned 100% blocks executed 87%
+        1:  115:void TVController::handleNextFavorite() {
+        1:  116:    if (favoriteChannels.empty()) {
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+    #####:  117:        return;
+        -:  118:    }
+        -:  119:
+        1:  120:    const int current = getCurrentChannel();
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        1:  121:    const auto it = std::upper_bound(favoriteChannels.begin(), favoriteChannels.end(), current);
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+        2:  122:    if (it == favoriteChannels.end()) {
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+    #####:  123:        setChannel(favoriteChannels.front());
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+        -:  124:    } else {
+        1:  125:        setChannel(*it);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        -:  126:    }
+        -:  127:}
+        -:  128:
+function _ZN12TVController19handleChannelSearchEv called 1 returned 100% blocks executed 88%
+        1:  129:void TVController::handleChannelSearch() {
+        1:  130:    searchedChannels.clear();
+call    0 returned 100%
+        1:  131:    const int startCh = getCurrentChannel();
+call    0 returned 100%
+        1:  132:    bool wrapped = false;
+        -:  133:
+        4:  134:    for (int i = 0; i <= MAX_CHANNEL; ++i) {
+branch  0 taken 100%
+branch  1 taken 0% (fallthrough)
+        4:  135:        const std::string chStr = tuner->seekCH();
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        4:  136:        if (chStr.empty()) {
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+    #####:  137:            break;
+        -:  138:        }
+        -:  139:
+        4:  140:        const int ch = std::stoi(chStr);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        4:  141:        if (ch == startCh) {
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+        2:  142:            if (wrapped) {
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+        1:  143:                break;
+        -:  144:            }
+        1:  145:            wrapped = true;
+        -:  146:        }
+        -:  147:
+        6:  148:        if (std::find(searchedChannels.begin(), searchedChannels.end(), ch) == searchedChannels.end()) {
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+branch  6 taken 100% (fallthrough)
+branch  7 taken 0%
+        3:  149:            searchedChannels.push_back(ch);
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        -:  150:        }
+        4:  151:    }
+call    0 returned 100%
+branch  1 taken 75% (fallthrough)
+branch  2 taken 25%
+call    3 never executed
+        -:  152:
+        1:  153:    std::sort(searchedChannels.begin(), searchedChannels.end());
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+        1:  154:}
+        -:  155:
+function _ZN12TVController10pushButtonE9remoteKey called 29 returned 100% blocks executed 96%
+       29:  156:void TVController::pushButton(remoteKey key) {
+       29:  157:    if (isDigitKey(key)) {
+call    0 returned 100%
+branch  1 taken 59% (fallthrough)
+branch  2 taken 41%
+       17:  158:        handleDigit(key);
+call    0 returned 100%
+       17:  159:        return;
+        -:  160:    }
+        -:  161:
+       12:  162:    if (key == remoteKey::KEY_OK) {
+branch  0 taken 17% (fallthrough)
+branch  1 taken 83%
+        2:  163:        setTunerCh();
+call    0 returned 100%
+        2:  164:        return;
+        -:  165:    }
+        -:  166:
+       10:  167:    if (!processingCH.empty()) {
+call    0 returned 100%
+branch  1 taken 10% (fallthrough)
+branch  2 taken 90%
+        1:  168:        clearPendingDigits();
+call    0 returned 100%
+        -:  169:    }
+        -:  170:
+       10:  171:    switch (key) {
+branch  0 taken 30%
+branch  1 taken 10%
+branch  2 taken 10%
+branch  3 taken 40%
+branch  4 taken 10%
+branch  5 taken 0%
+        3:  172:        case remoteKey::KEY_CH_UP:
+        3:  173:            handleChannelUp();
+call    0 returned 100%
+        3:  174:            break;
+        1:  175:        case remoteKey::KEY_CH_DOWN:
+        1:  176:            handleChannelDown();
+call    0 returned 100%
+        1:  177:            break;
+        1:  178:        case remoteKey::KEY_CH_SEARCH:
+        1:  179:            handleChannelSearch();
+call    0 returned 100%
+        1:  180:            break;
+        4:  181:        case remoteKey::KEY_FAVORITE_ADD:
+        4:  182:            toggleFavorite();
+call    0 returned 100%
+        4:  183:            break;
+        1:  184:        case remoteKey::KEY_NEXT_FAVORITE:
+        1:  185:            handleNextFavorite();
+call    0 returned 100%
+        1:  186:            break;
+    #####:  187:        default:
+    #####:  188:            break;
+        -:  189:    }
+        -:  190:}

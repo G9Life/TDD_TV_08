@@ -1,0 +1,126 @@
+{
+  "tests": 19,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TVControllerRegression\/TVControllerGoldenTest",
+      "tests": 19,
+      "testsuite": [
+        {
+          "name": "MatchesApprovedOutput\/DigitThenConfirm_ChangesToSingleDigitChannel",
+          "value_param": "\"DigitThenConfirm_ChangesToSingleDigitChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/TwoDigits_ChangesImmediately",
+          "value_param": "\"TwoDigits_ChangesImmediately\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/FourDigits_ChangesAsTwoPairs",
+          "value_param": "\"FourDigits_ChangesAsTwoPairs\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ThirdDigit_StartsNextPendingInput",
+          "value_param": "\"ThirdDigit_StartsNextPendingInput\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/PendingSingleDigitConfirm_ChangesToPendingDigit",
+          "value_param": "\"PendingSingleDigitConfirm_ChangesToPendingDigit\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit",
+          "value_param": "\"PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/LeadingZeroThenDigit_ChangesToDigitChannel",
+          "value_param": "\"LeadingZeroThenDigit_ChangesToDigitChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/LeadingZeroThenConfirm_ChangesToChannelZero",
+          "value_param": "\"LeadingZeroThenConfirm_ChangesToChannelZero\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelUpWithoutSearchResult_IncrementsChannel",
+          "value_param": "\"ChannelUpWithoutSearchResult_IncrementsChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelDownWithoutSearchResult_DecrementsChannel",
+          "value_param": "\"ChannelDownWithoutSearchResult_DecrementsChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelUpWithoutSearchResult_WrapsFromMaxToMin",
+          "value_param": "\"ChannelUpWithoutSearchResult_WrapsFromMaxToMin\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelDownWithoutSearchResult_WrapsFromMinToMax",
+          "value_param": "\"ChannelDownWithoutSearchResult_WrapsFromMinToMax\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelSearchThenUp_MovesWithinStoredChannels",
+          "value_param": "\"ChannelSearchThenUp_MovesWithinStoredChannels\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelUpWithSearchResult_ChangesToNextStoredChannel",
+          "value_param": "\"ChannelUpWithSearchResult_ChangesToNextStoredChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelDownWithSearchResult_ChangesToPreviousStoredChannel",
+          "value_param": "\"ChannelDownWithSearchResult_ChangesToPreviousStoredChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelUpWithSearchResult_WrapsToSmallestStoredChannel",
+          "value_param": "\"ChannelUpWithSearchResult_WrapsToSmallestStoredChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel",
+          "value_param": "\"ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/NextFavorite_ChangesToNearestGreaterFavorite",
+          "value_param": "\"NextFavorite_ChangesToNearestGreaterFavorite\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "MatchesApprovedOutput\/NextFavorite_WrapsToSmallestFavorite",
+          "value_param": "\"NextFavorite_WrapsToSmallestFavorite\"",
+          "file": "C:\/DEV\/TDD_TV_08\/test\/TVControllerGoldenTest.cpp",
+          "line": 50
+        }
+      ]
+    }
+  ]
+}

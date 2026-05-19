@@ -1,0 +1,5 @@
+if(EXISTS "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest[1]_tests.cmake")
+  include("C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest[1]_tests.cmake")
+else()
+  add_test(TVControllerGoldenTest_NOT_BUILT TVControllerGoldenTest_NOT_BUILT)
+endif()

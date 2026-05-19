@@ -1,0 +1,24 @@
+# ninja log v7
+100	3591	8008770073431144	CMakeFiles/TVControllerTest.dir/src/TVController.cpp.obj	996dc534c02355a1
+142	3687	8008770073847936	CMakeFiles/TVControllerGoldenTest.dir/src/TVController.cpp.obj	80625d924130a25d
+69	3954	8008770073121230	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	22259192665d0298
+128	4016	8008770073712145	CMakeFiles/TVControllerGoldenTest.dir/test/TextTestFixture.cpp.obj	d380cee0a0d10f6c
+159	4495	8008770074025515	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	265e57d06fbbaa38
+59	5763	8008770073025174	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	29b093fe6b64b21f
+112	6201	8008770073561280	CMakeFiles/TVControllerGoldenTest.dir/test/TVControllerGoldenTest.cpp.obj	ceb31aca0b602227
+89	6896	8008770073320623	CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj	3e10f5d47da2660a
+80	8509	8008770073225155	CMakeFiles/TunerTest.dir/test/TunerTest.cpp.obj	969f3739ed3982ad
+49	9992	8008770072920185	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	35e45c919e4da5e1
+9995	11333	8008770172383371	lib/libgtest.a	3b9997a97ff47c40
+11345	12725	8008770185884357	lib/libgtest_main.a	59b1a7bd9225014d
+11333	12740	8008770185758165	lib/libgmock.a	3deea4a3c88a0826
+12779	14327	8008770200223836	lib/libgmock_main.a	c2c46e956c129072
+12765	18202	8008770254240500	TVControllerGoldenTest.exe	158672955fdcf6eb
+12765	18202	8008770254240500	TVControllerGoldenTest[1]_tests.cmake	158672955fdcf6eb
+12765	18202	8008770254240500	C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest[1]_tests.cmake	158672955fdcf6eb
+12751	18365	8008770255733185	TVControllerTest.exe	2b0550c93a118407
+12751	18365	8008770255733185	TVControllerTest[1]_tests.cmake	2b0550c93a118407
+12751	18365	8008770255733185	C:/DEV/TDD_TV_08/build-cov/TVControllerTest[1]_tests.cmake	2b0550c93a118407
+12740	18501	8008770257250305	TunerTest.exe	b7213f80207a2719
+12740	18501	8008770257250305	TunerTest[1]_tests.cmake	b7213f80207a2719
+12740	18501	8008770257250305	C:/DEV/TDD_TV_08/build-cov/TunerTest[1]_tests.cmake	b7213f80207a2719
