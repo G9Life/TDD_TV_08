@@ -15,19 +15,12 @@ unset(ENV{CMAKE_TOOLCHAIN_FILE})
 
 project(googletest-populate NONE)
 
-
-# Pass through things we've already detected in the main project to avoid
-# paying the cost of redetecting them again in ExternalProject_Add()
-set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
-set(Git_VERSION [==[2.54.0.windows.1]==])
-set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/cmd/git.exe;2.54.0.windows.1]==]
-)
+set(CMAKE_TLS_VERIFY [==[OFF]==])
 
 
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/google/googletest.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.14.0"
+                     "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip"
                     SOURCE_DIR          "C:/DEV/TDD_TV_08/build/_deps/googletest-src"
                     BINARY_DIR          "C:/DEV/TDD_TV_08/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""

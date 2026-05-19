@@ -1,0 +1,24 @@
+# ninja log v7
+116	4787	8008709299603718	CMakeFiles/TVControllerTest.dir/src/TVController.cpp.obj	c484b7f815306728
+164	5036	8008709300075828	CMakeFiles/TVControllerGoldenTest.dir/src/TVController.cpp.obj	b7efd517bc375ea8
+147	5501	8008709299922079	CMakeFiles/TVControllerGoldenTest.dir/test/TextTestFixture.cpp.obj	7d477652445de418
+78	6076	8008709299227148	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	fe3de9a18187f1ef
+191	6950	8008709300354375	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	4dcb3fd982568e4e
+131	8886	8008709299760260	CMakeFiles/TVControllerGoldenTest.dir/test/TVControllerGoldenTest.cpp.obj	3d892f9b7f989361
+103	9537	8008709299478231	CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj	9cd1a75c24fe738c
+67	9738	8008709299106388	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	bfa878b8f34ca465
+90	10910	8008709299352793	CMakeFiles/TunerTest.dir/test/TunerTest.cpp.obj	4628be0869812c3a
+57	16422	8008709299009406	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	9df7c135e2f2b7bc
+16427	18474	8008709462710909	lib/libgtest.a	3b9997a97ff47c40
+18486	20087	8008709483300844	lib/libgtest_main.a	59b1a7bd9225014d
+18474	20122	8008709483177302	lib/libgmock.a	3deea4a3c88a0826
+20164	22273	8008709500074956	lib/libgmock_main.a	c2c46e956c129072
+20150	26565	8008709563818118	TVControllerGoldenTest.exe	68a0d833cf4c8958
+20150	26565	8008709563818118	TVControllerGoldenTest[1]_tests.cmake	68a0d833cf4c8958
+20150	26565	8008709563818118	C:/DEV/TDD_TV_08/build-golden/TVControllerGoldenTest[1]_tests.cmake	68a0d833cf4c8958
+20136	26941	8008709567578370	TVControllerTest.exe	3a922428c7e53ad7
+20136	26941	8008709567578370	TVControllerTest[1]_tests.cmake	3a922428c7e53ad7
+20136	26941	8008709567578370	C:/DEV/TDD_TV_08/build-golden/TVControllerTest[1]_tests.cmake	3a922428c7e53ad7
+20122	27104	8008709569208402	TunerTest.exe	e33a75d10899d444
+20122	27104	8008709569208402	TunerTest[1]_tests.cmake	e33a75d10899d444
+20122	27104	8008709569208402	C:/DEV/TDD_TV_08/build-golden/TunerTest[1]_tests.cmake	e33a75d10899d444

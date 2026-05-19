@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260519-0617-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.3.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="SJ-BookPro2"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="32394"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2100.000000"
+	>
+	<Testing>
+		<StartDateTime>May 19 15:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1779172128</StartTestTime>
+		<TestList>
+			<Test>./ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</Name>
+			<Path>.</Path>
+			<FullName>./ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"</FullName>
+			<FullCommandLine>C:\DEV\TDD_TV_08\build\TunerTest.exe "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1779172128.996793</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.684300</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\TDD_TV_08\build\TunerTest.exe "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylUcFqg0AQve9XzDEeNCn0UAI5FE1zKKRFrRdXZKMTs7Duht21/f26GoIWCgHfaWbf482+mbiTkssGWsblyoOzVi2EWxrtM5pGUZlm5eaFnjoualrWeDW0UaoRaNFY3+hq0tKhdVXpzIKqIkdlcQuHQQJpz8CZC4sadpAxwevwwqREYdZpJ1FPn5w4cF4J2vDypmbk+pnkuzsKiG8ZnsAOM1yGW206bjEguX9HAQehTkyMPMpvrpVsUfZatH53/SOeej7wZ5JD/HWEAcXikKMPfLwv9oLVBlrjLco2eoBVlgmPPLZTi0z7tfqR84v9dynQTAbzOf0SPl+TZB+5hY7agPwC2UzorQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 19 15:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1779172129</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,5 +1,6 @@
 C:/DEV/TDD_TV_08/build/CMakeFiles/TunerTest.dir
 C:/DEV/TDD_TV_08/build/CMakeFiles/TVControllerTest.dir
+C:/DEV/TDD_TV_08/build/CMakeFiles/TVControllerGoldenTest.dir
 C:/DEV/TDD_TV_08/build/CMakeFiles/test.dir
 C:/DEV/TDD_TV_08/build/CMakeFiles/edit_cache.dir
 C:/DEV/TDD_TV_08/build/CMakeFiles/rebuild_cache.dir

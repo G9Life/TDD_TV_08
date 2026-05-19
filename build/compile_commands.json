@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/DEV/TDD_TV_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TunerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TunerTest.dir\\test\\TunerTest.cpp.obj -c C:\\DEV\\TDD_TV_08\\test\\TunerTest.cpp",
+  "file": "C:/DEV/TDD_TV_08/test/TunerTest.cpp",
+  "output": "CMakeFiles/TunerTest.dir/test/TunerTest.cpp.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerTest.dir\\test\\TVControllerTest.cpp.obj -c C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+  "file": "C:/DEV/TDD_TV_08/test/TVControllerTest.cpp",
+  "output": "CMakeFiles/TVControllerTest.dir/test/TVControllerTest.cpp.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/TVControllerTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerTest.dir\\src\\TVController.cpp.obj -c C:\\DEV\\TDD_TV_08\\src\\TVController.cpp",
+  "file": "C:/DEV/TDD_TV_08/src/TVController.cpp",
+  "output": "CMakeFiles/TVControllerTest.dir/src/TVController.cpp.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_SOURCE_DIR=\\\"C:/DEV/TDD_TV_08/test/golden\\\" @CMakeFiles/TVControllerGoldenTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerGoldenTest.dir\\test\\TVControllerGoldenTest.cpp.obj -c C:\\DEV\\TDD_TV_08\\test\\TVControllerGoldenTest.cpp",
+  "file": "C:/DEV/TDD_TV_08/test/TVControllerGoldenTest.cpp",
+  "output": "CMakeFiles/TVControllerGoldenTest.dir/test/TVControllerGoldenTest.cpp.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_SOURCE_DIR=\\\"C:/DEV/TDD_TV_08/test/golden\\\" @CMakeFiles/TVControllerGoldenTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerGoldenTest.dir\\test\\TextTestFixture.cpp.obj -c C:\\DEV\\TDD_TV_08\\test\\TextTestFixture.cpp",
+  "file": "C:/DEV/TDD_TV_08/test/TextTestFixture.cpp",
+  "output": "CMakeFiles/TVControllerGoldenTest.dir/test/TextTestFixture.cpp.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGOLDEN_SOURCE_DIR=\\\"C:/DEV/TDD_TV_08/test/golden\\\" @CMakeFiles/TVControllerGoldenTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TVControllerGoldenTest.dir\\src\\TVController.cpp.obj -c C:\\DEV\\TDD_TV_08\\src\\TVController.cpp",
+  "file": "C:/DEV/TDD_TV_08/src/TVController.cpp",
+  "output": "CMakeFiles/TVControllerGoldenTest.dir/src/TVController.cpp.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\DEV\\TDD_TV_08\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/DEV/TDD_TV_08/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\DEV\\TDD_TV_08\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/DEV/TDD_TV_08/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\DEV\\TDD_TV_08\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/DEV/TDD_TV_08/build/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\DEV\\TDD_TV_08\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/DEV/TDD_TV_08/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
