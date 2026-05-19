@@ -1,0 +1,1294 @@
+Start testing: May 19 15:57 대한민국 표준시
+----------------------------------------------------------
+1/42 Testing: TunerTest.initChannel
+1/42 Test: TunerTest.initChannel
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=TunerTest.initChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TunerTest.initChannel" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TunerTest.initChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TunerTest
+[ RUN      ] TunerTest.initChannel
+[       OK ] TunerTest.initChannel (0 ms)
+[----------] 1 test from TunerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.88 sec
+----------------------------------------------------------
+Test Passed.
+"TunerTest.initChannel" end time: May 19 15:57 대한민국 표준시
+"TunerTest.initChannel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/42 Testing: TunerTest.testSeekCh10times
+2/42 Test: TunerTest.testSeekCh10times
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=TunerTest.testSeekCh10times" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TunerTest.testSeekCh10times" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TunerTest.testSeekCh10times
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TunerTest
+[ RUN      ] TunerTest.testSeekCh10times
+[       OK ] TunerTest.testSeekCh10times (0 ms)
+[----------] 1 test from TunerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TunerTest.testSeekCh10times" end time: May 19 15:57 대한민국 표준시
+"TunerTest.testSeekCh10times" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/42 Testing: TunerTest.testSeekCh10timesAfterSetCH
+3/42 Test: TunerTest.testSeekCh10timesAfterSetCH
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=TunerTest.testSeekCh10timesAfterSetCH" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TunerTest.testSeekCh10timesAfterSetCH" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TunerTest.testSeekCh10timesAfterSetCH
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TunerTest
+[ RUN      ] TunerTest.testSeekCh10timesAfterSetCH
+[       OK ] TunerTest.testSeekCh10timesAfterSetCH (0 ms)
+[----------] 1 test from TunerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TunerTest.testSeekCh10timesAfterSetCH" end time: May 19 15:57 대한민국 표준시
+"TunerTest.testSeekCh10timesAfterSetCH" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/42 Testing: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"
+4/42 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/0" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValidChannel/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ValidChannels/TunerValidChannelTest
+[ RUN      ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/0
+[       OK ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/0 (0 ms)
+[----------] 1 test from ValidChannels/TunerValidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" end time: May 19 15:57 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"0"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/42 Testing: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"
+5/42 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValidChannel/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ValidChannels/TunerValidChannelTest
+[ RUN      ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/1
+[       OK ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/1 (0 ms)
+[----------] 1 test from ValidChannels/TunerValidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" end time: May 19 15:57 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"4"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/42 Testing: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"
+6/42 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/2" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValidChannel/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ValidChannels/TunerValidChannelTest
+[ RUN      ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/2
+[       OK ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/2 (0 ms)
+[----------] 1 test from ValidChannels/TunerValidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" end time: May 19 15:57 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"5"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/42 Testing: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"
+7/42 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/3" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValidChannel/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ValidChannels/TunerValidChannelTest
+[ RUN      ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/3
+[       OK ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/3 (0 ms)
+[----------] 1 test from ValidChannels/TunerValidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" end time: May 19 15:57 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"12"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/42 Testing: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"
+8/42 Test: ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ValidChannels/TunerValidChannelTest
+[ RUN      ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4
+[       OK ] ValidChannels/TunerValidChannelTest.testSetChForValidChannel/4 (0 ms)
+[----------] 1 test from ValidChannels/TunerValidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" end time: May 19 15:57 대한민국 표준시
+"ValidChannels/TunerValidChannelTest.testSetChForValidChannel/"99"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/42 Testing: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"
+9/42 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/0" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest
+[ RUN      ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/0
+[       OK ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/0 (0 ms)
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" end time: May 19 15:57 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-12"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/42 Testing: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"
+10/42 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest
+[ RUN      ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/1
+[       OK ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/1 (0 ms)
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" end time: May 19 15:57 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-2"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/42 Testing: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"
+11/42 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/2" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest
+[ RUN      ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/2
+[       OK ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/2 (0 ms)
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" end time: May 19 15:57 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"-0"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/42 Testing: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"
+12/42 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/3" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest
+[ RUN      ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/3
+[       OK ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/3 (0 ms)
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" end time: May 19 15:57 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"100"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/42 Testing: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"
+13/42 Test: InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"
+Command: "C:/DEV/TDD_TV_08/build-cov/TunerTest.exe" "--gtest_filter=InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/4" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest
+[ RUN      ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/4
+[       OK ] InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/4 (0 ms)
+[----------] 1 test from InvalidChannels/TunerInvalidChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" end time: May 19 15:57 대한민국 표준시
+"InvalidChannels/TunerInvalidChannelTest.testSetChForInvalidChannel/"9999"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/42 Testing: TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel
+14/42 Test: TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xe66c3ff200 "1")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.DigitThenConfirm_ChangesToSingleDigitChannel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/42 Testing: TVControllerTest.TwoDigits_ChangesImmediately
+15/42 Test: TVControllerTest.TwoDigits_ChangesImmediately
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.TwoDigits_ChangesImmediately" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.TwoDigits_ChangesImmediately" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.TwoDigits_ChangesImmediately
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.TwoDigits_ChangesImmediately
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xd9a89ff6b0 "12")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.TwoDigits_ChangesImmediately (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.TwoDigits_ChangesImmediately" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.TwoDigits_ChangesImmediately" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/42 Testing: TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel
+16/42 Test: TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0x4f699ff470 "7")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.LeadingZeroThenDigit_ChangesToDigitChannel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/42 Testing: TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin
+17/42 Test: TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "99"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xc23bdff010 "0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.ChannelUpWithoutSearch_WrapsFromMaxToMin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/42 Testing: TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax
+18/42 Test: TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "0"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0x2a9b9ff500 "99")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.ChannelDownWithoutSearch_WrapsFromMinToMax" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/42 Testing: TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels
+19/42 Test: TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "6"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "6"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0x510f5ff2e0 "14")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.ChannelSearchThenUp_MovesWithinStoredChannels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/42 Testing: TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite
+20/42 Test: TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "1"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "4"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xde969ff340 "12")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "12"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xde969ff340 "56")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "56"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "6"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xde969ff340 "12")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.NextFavorite_ChangesToNearestGreaterFavorite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/42 Testing: TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction
+21/42 Test: TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0x205abff4c0 "45")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:21:
+    Function call: getCurrentCH()
+          Returns: "45"
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0x205abff4c0 "46")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/42 Testing: TVControllerTest.FourDigits_ChangesAsTwoPairs
+22/42 Test: TVControllerTest.FourDigits_ChangesAsTwoPairs
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.FourDigits_ChangesAsTwoPairs" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.FourDigits_ChangesAsTwoPairs" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.FourDigits_ChangesAsTwoPairs
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.FourDigits_ChangesAsTwoPairs
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xe9d5bff2a0 "12")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0xe9d5bff2a0 "34")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.FourDigits_ChangesAsTwoPairs (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.FourDigits_ChangesAsTwoPairs" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.FourDigits_ChangesAsTwoPairs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/42 Testing: TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero
+23/42 Test: TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerTest.exe" "--gtest_filter=TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerTest
+[ RUN      ] TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero
+
+GMOCK WARNING:
+Uninteresting mock function call - taking default action specified at:
+C:/DEV/TDD_TV_08/test/TVControllerTest.cpp:23:
+    Function call: setCH(@0x6d845ff430 "0")
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect-useoncall for details.
+[       OK ] TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero (0 ms)
+[----------] 1 test from TVControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" end time: May 19 15:57 대한민국 표준시
+"TVControllerTest.LeadingZeroThenConfirm_ChangesToChannelZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"DigitThenConfirm_ChangesToSingleDigitChannel"
+24/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"DigitThenConfirm_ChangesToSingleDigitChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/DigitThenConfirm_ChangesToSingleDigitChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"DigitThenConfirm_ChangesToSingleDigitChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/DigitThenConfirm_ChangesToSingleDigitChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/DigitThenConfirm_ChangesToSingleDigitChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/DigitThenConfirm_ChangesToSingleDigitChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"DigitThenConfirm_ChangesToSingleDigitChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"DigitThenConfirm_ChangesToSingleDigitChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"TwoDigits_ChangesImmediately"
+25/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"TwoDigits_ChangesImmediately"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/TwoDigits_ChangesImmediately" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"TwoDigits_ChangesImmediately"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/TwoDigits_ChangesImmediately
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/TwoDigits_ChangesImmediately
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/TwoDigits_ChangesImmediately (2 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"TwoDigits_ChangesImmediately"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"TwoDigits_ChangesImmediately"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"FourDigits_ChangesAsTwoPairs"
+26/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"FourDigits_ChangesAsTwoPairs"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/FourDigits_ChangesAsTwoPairs" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"FourDigits_ChangesAsTwoPairs"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/FourDigits_ChangesAsTwoPairs
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/FourDigits_ChangesAsTwoPairs
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/FourDigits_ChangesAsTwoPairs (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"FourDigits_ChangesAsTwoPairs"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"FourDigits_ChangesAsTwoPairs"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ThirdDigit_StartsNextPendingInput"
+27/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ThirdDigit_StartsNextPendingInput"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ThirdDigit_StartsNextPendingInput" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ThirdDigit_StartsNextPendingInput"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ThirdDigit_StartsNextPendingInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ThirdDigit_StartsNextPendingInput
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ThirdDigit_StartsNextPendingInput (2 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ThirdDigit_StartsNextPendingInput"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ThirdDigit_StartsNextPendingInput"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitConfirm_ChangesToPendingDigit"
+28/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitConfirm_ChangesToPendingDigit"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitConfirm_ChangesToPendingDigit" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitConfirm_ChangesToPendingDigit"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitConfirm_ChangesToPendingDigit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitConfirm_ChangesToPendingDigit
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitConfirm_ChangesToPendingDigit (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitConfirm_ChangesToPendingDigit"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitConfirm_ChangesToPendingDigit"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit"
+29/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit (2 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"PendingSingleDigitNonConfirmFunction_InvalidatesPendingDigit"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenDigit_ChangesToDigitChannel"
+30/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenDigit_ChangesToDigitChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenDigit_ChangesToDigitChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenDigit_ChangesToDigitChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenDigit_ChangesToDigitChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenDigit_ChangesToDigitChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenDigit_ChangesToDigitChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenDigit_ChangesToDigitChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenDigit_ChangesToDigitChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenConfirm_ChangesToChannelZero"
+31/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenConfirm_ChangesToChannelZero"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenConfirm_ChangesToChannelZero" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenConfirm_ChangesToChannelZero"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenConfirm_ChangesToChannelZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenConfirm_ChangesToChannelZero
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/LeadingZeroThenConfirm_ChangesToChannelZero (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenConfirm_ChangesToChannelZero"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"LeadingZeroThenConfirm_ChangesToChannelZero"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_IncrementsChannel"
+32/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_IncrementsChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_IncrementsChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_IncrementsChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_IncrementsChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_IncrementsChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_IncrementsChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_IncrementsChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_IncrementsChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_DecrementsChannel"
+33/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_DecrementsChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_DecrementsChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_DecrementsChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_DecrementsChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_DecrementsChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_DecrementsChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_DecrementsChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_DecrementsChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_WrapsFromMaxToMin"
+34/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_WrapsFromMaxToMin"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_WrapsFromMaxToMin" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_WrapsFromMaxToMin"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_WrapsFromMaxToMin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_WrapsFromMaxToMin
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithoutSearchResult_WrapsFromMaxToMin (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_WrapsFromMaxToMin"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithoutSearchResult_WrapsFromMaxToMin"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_WrapsFromMinToMax"
+35/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_WrapsFromMinToMax"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_WrapsFromMinToMax" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_WrapsFromMinToMax"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_WrapsFromMinToMax
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_WrapsFromMinToMax
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithoutSearchResult_WrapsFromMinToMax (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_WrapsFromMinToMax"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithoutSearchResult_WrapsFromMinToMax"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelSearchThenUp_MovesWithinStoredChannels"
+36/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelSearchThenUp_MovesWithinStoredChannels"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelSearchThenUp_MovesWithinStoredChannels" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelSearchThenUp_MovesWithinStoredChannels"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelSearchThenUp_MovesWithinStoredChannels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelSearchThenUp_MovesWithinStoredChannels
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelSearchThenUp_MovesWithinStoredChannels (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelSearchThenUp_MovesWithinStoredChannels"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelSearchThenUp_MovesWithinStoredChannels"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_ChangesToNextStoredChannel"
+37/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_ChangesToNextStoredChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_ChangesToNextStoredChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_ChangesToNextStoredChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_ChangesToNextStoredChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_ChangesToNextStoredChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_ChangesToNextStoredChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_ChangesToNextStoredChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_ChangesToNextStoredChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToPreviousStoredChannel"
+38/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToPreviousStoredChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToPreviousStoredChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToPreviousStoredChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToPreviousStoredChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToPreviousStoredChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToPreviousStoredChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToPreviousStoredChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToPreviousStoredChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_WrapsToSmallestStoredChannel"
+39/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_WrapsToSmallestStoredChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_WrapsToSmallestStoredChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_WrapsToSmallestStoredChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_WrapsToSmallestStoredChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_WrapsToSmallestStoredChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelUpWithSearchResult_WrapsToSmallestStoredChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_WrapsToSmallestStoredChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelUpWithSearchResult_WrapsToSmallestStoredChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel"
+40/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"ChannelDownWithSearchResult_ChangesToNearestLowerStoredChannel"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_ChangesToNearestGreaterFavorite"
+41/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_ChangesToNearestGreaterFavorite"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_ChangesToNearestGreaterFavorite" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_ChangesToNearestGreaterFavorite"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_ChangesToNearestGreaterFavorite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_ChangesToNearestGreaterFavorite
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_ChangesToNearestGreaterFavorite (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_ChangesToNearestGreaterFavorite"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_ChangesToNearestGreaterFavorite"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/42 Testing: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_WrapsToSmallestFavorite"
+42/42 Test: TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_WrapsToSmallestFavorite"
+Command: "C:/DEV/TDD_TV_08/build-cov/TVControllerGoldenTest.exe" "--gtest_filter=TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_WrapsToSmallestFavorite" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/TDD_TV_08/build-cov
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_WrapsToSmallestFavorite"" start time: May 19 15:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:/DEV/TDD_TV_08/build-cov/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_WrapsToSmallestFavorite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest
+[ RUN      ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_WrapsToSmallestFavorite
+[       OK ] TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/NextFavorite_WrapsToSmallestFavorite (1 ms)
+[----------] 1 test from TVControllerRegression/TVControllerGoldenTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_WrapsToSmallestFavorite"" end time: May 19 15:57 대한민국 표준시
+"TVControllerRegression/TVControllerGoldenTest.MatchesApprovedOutput/"NextFavorite_WrapsToSmallestFavorite"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 19 15:57 대한민국 표준시
+
+golden =   9.61 sec*proc
+

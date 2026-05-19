@@ -1,0 +1,4 @@
+scenario LeadingZeroThenConfirm_ChangesToChannelZero
+initial 50
+0 -> 50
+OK -> 0

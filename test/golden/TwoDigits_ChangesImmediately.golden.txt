@@ -1,0 +1,4 @@
+scenario TwoDigits_ChangesImmediately
+initial 0
+1 -> 0
+2 -> 12

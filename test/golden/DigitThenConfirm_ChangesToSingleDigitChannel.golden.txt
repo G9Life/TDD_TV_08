@@ -1,0 +1,4 @@
+scenario DigitThenConfirm_ChangesToSingleDigitChannel
+initial 6
+1 -> 6
+OK -> 1

@@ -1,0 +1,5 @@
+scenario ChannelUpWithSearchResult_WrapsToSmallestStoredChannel
+initial 15
+seek_returns 4 6 14 6
+CH_SEARCH -> 15
+CH_UP -> 4

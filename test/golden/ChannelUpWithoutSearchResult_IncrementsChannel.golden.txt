@@ -1,0 +1,3 @@
+scenario ChannelUpWithoutSearchResult_IncrementsChannel
+initial 6
+CH_UP -> 7

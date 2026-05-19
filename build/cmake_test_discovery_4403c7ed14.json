@@ -1,0 +1,62 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TVControllerTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "DigitThenConfirm_ChangesToSingleDigitChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 41
+        },
+        {
+          "name": "TwoDigits_ChangesImmediately",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 55
+        },
+        {
+          "name": "LeadingZeroThenDigit_ChangesToDigitChannel",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 69
+        },
+        {
+          "name": "ChannelUpWithoutSearch_WrapsFromMaxToMin",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 83
+        },
+        {
+          "name": "ChannelDownWithoutSearch_WrapsFromMinToMax",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 96
+        },
+        {
+          "name": "ChannelSearchThenUp_MovesWithinStoredChannels",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 109
+        },
+        {
+          "name": "NextFavorite_ChangesToNearestGreaterFavorite",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 130
+        },
+        {
+          "name": "PendingDigitFunctionKey_InvalidatesPendingAndAppliesFunction",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 154
+        },
+        {
+          "name": "FourDigits_ChangesAsTwoPairs",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 174
+        },
+        {
+          "name": "LeadingZeroThenConfirm_ChangesToChannelZero",
+          "file": "C:\\DEV\\TDD_TV_08\\test\\TVControllerTest.cpp",
+          "line": 192
+        }
+      ]
+    }
+  ]
+}
