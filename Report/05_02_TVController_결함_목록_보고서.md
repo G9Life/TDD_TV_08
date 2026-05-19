@@ -269,7 +269,8 @@ RPT-04·RPT-06에 따르면 아래 시나리오는 아직 `TEST_F`가 없어 본
 | 요구사항 분석 | `docs/01_requirements_analysis.md` |
 | 결함 분석 | `Report/05_01_TVController_결함_분석_보고서.md` |
 | 테스트 구현 | `Report/04_TVController_테스트_구현_보고서.md` |
-| 결함 목록 (작업용) | `docs/defect_list.md` |
+| 결함 목록 (작업용) | `docs/05_02_defect_list.md` |
+| 결함 관리 표준 (RPT-08) | `Report/05_03_TVController_결함_관리_보고서.md` |
 | 프로젝트 README | `README.md` |
 
 ---
